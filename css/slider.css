@@ -1,0 +1,50 @@
+body{
+  margin: 0 auto;
+}
+#hero{
+  width: 100%;
+  min-height: 600px;
+  background: #888;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  background: red;
+  width: 100%;
+  padding: 0;
+  display: none;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.arrows{
+  position: absolute;
+  top:50%;
+  z-index: 98;
+  margin-top: -60px;
+  width: 100%;
+}
+#left{
+  position: absolute;
+  z-index: 99;
+  left: 10px;
+}
+#right{
+  position: absolute;
+  z-index: 99;
+  right: 10px;
+}
+.arrow{
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.5);
+  color:#fff;
+}

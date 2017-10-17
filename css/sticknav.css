@@ -1,0 +1,38 @@
+body{
+  margin: 0 auto;
+  background-color: #ccc;
+}
+nav{
+  height: 60px;
+  text-align: right;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 2;
+  width: 100%;
+}
+a{
+  color:#fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.sticky{
+  position: fixed;
+  background: #fff;
+}
+.sticky > a{
+  color: #000;
+}
+
+p{
+  padding-top: 40px;
+  width: 600px;
+  margin: 0 auto;
+}
+#hero{
+  width: 100%;
+  min-height: 600px;
+  background-color: #000;
+}
